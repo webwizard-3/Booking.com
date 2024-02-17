@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 62vh;
+    background-color: #003b95;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 27px;
+    position: relative;
+    left: 34em;
+}
+
+nav ul li{
+    list-style: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav ul li:hover{
+    background-color: rgba(60, 120, 209, 0.3);
+    padding: 8px;
+    cursor: pointer;
+}
+
+nav h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    left: 9%;
+}
+
+nav h1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+nav ul li img {
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+nav button {
+    width: 66px;
+    height: 32px;
+    color: #003b95;
+    border-radius: 2px;
+    border: 1px solid #006ce4;
+    position: relative;
+    left: 40%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.icons{
+    width: 90%;
+}
+
+.icons ul {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+    left: 8em;
+}
+
+.icons ul li{
+    list-style-type: none;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px; 
+    border-radius: 30px;
+    position: relative;
+    bottom: 7px;
+}
+
+.icons ul li:hover{
+    background-color: rgba(60, 120, 209, 0.3);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icons .l1{
+    border: 1px solid #fff;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.icons .l1:hover{
+    cursor: pointer;
+}
+
+.text{
+    color: #fff;
+    position: relative;
+    left: 8em;
+    top: 6rem;
+    width: 90%;   
+}
+
+.text h1{
+    padding-bottom: 8px;
+    font-size: 40px;
+    letter-spacing: 1px;   
+}
+
+.text h2{
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 23px;
+}       
+
+.inputs{
+    position: relative;
+    top: 8rem;
+    left: 8rem;
+    width: 90%;
+    /* background-color: #ffb700; */
+    /* border: 2px solid #ffb700; */
+    border-radius: 10px;
+}
+
+.inputs input{
+    padding: 0px 10px 0px 10px;
+    width: 28em;
+    height: 60px;
+    border: 5px solid #ffb700;
+    border-right: 2px solid #ffb700 !important;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+
+.inputs select{
+    padding: 0px 10px 0px 10px;
+    width: 23em;
+    height: 60px;
+    border: 5px solid #ffb700;
+    border-right: 4px solid #ffb700 !important;
+    position: relative;
+    right:11px;
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+}
+
+.inputs input:nth-child(2) {
+    position: relative;
+    right: 6px;
+    border-radius: 0px;
+    width: 26em;
+    border-right: 1px solid #ffb700 !important;
+}
+
+.inputs button {
+    font-size: 17px;
+    background-color: #006ae3;
+    color: #fff;
+    width: 115px;
+    height: 60px;
+    border-radius: 2px;
+    border: 3px solid #ffb700;
+    position: relative;
+    right: 16px;
+    top: 2px;
+    border-radius: 0px 10px 10px 0px;
+}
