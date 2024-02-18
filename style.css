@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    letter-spacing: 0.7px;
 }
 
 /* header */
@@ -144,8 +145,6 @@ button:hover{
     top: 8rem;
     left: 8rem;
     width: 90%;
-    /* background-color: #ffb700; */
-    /* border: 2px solid #ffb700; */
     border-radius: 10px;
 }
 
@@ -188,10 +187,139 @@ button:hover{
     color: #fff;
     width: 115px;
     height: 60px;
-    border-radius: 2px;
     border: 3px solid #ffb700;
     position: relative;
     right: 16px;
     top: 2px;
     border-radius: 0px 10px 10px 0px;
+}
+
+.inputs button:hover{
+    background-color: rgba(17, 96, 185, 0.993);
+}
+
+/* content */
+
+.content{
+    position: relative;
+    top: 6em;
+    width: 90%;
+}
+
+.content h3, p{
+    position: relative;
+    left: 8rem;
+}
+
+
+.content h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content p{
+    margin-top: .3em;
+    color: #555;
+}
+
+.d1{
+    position: relative;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* div1 */
+
+.d1 .div1{
+    border-radius: 8px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    right: 106px;
+    width: 57%;
+    height: 158px;
+    padding-top: 15px;
+}
+
+.d1 .div1 img{
+    max-width: 124px;
+    position: relative;
+    left: 27em;
+    bottom: 5em;
+}
+
+.d1 .div1 h3{
+    font-size: 20px;
+}
+
+.d1 .div1 p{
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+}
+
+.d1 .div1 button{
+    font-size: 14px;
+    background-color: #006ae3;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    position: relative;
+    left: 8rem;
+    bottom: 88px;
+    border-radius: 5px;   
+}
+
+.d1 .div1 button:hover{
+    background-color: rgba(17, 96, 185, 0.993);
+}
+
+/* div2 */
+
+.div2{
+    border-radius: 8px;
+    padding-top: 15px;
+    position: relative;
+    right: 118px;
+    width: 43%;
+    height: 156px;
+    background: url(images/year.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.d1 .div2 button{
+    background-color: #006ae3;
+    color: #fff;
+    width: 159px;
+    height: 44px;
+    border: none;
+    position: relative;
+    top: 28px;
+    left: 8px; 
+    border-radius: 5px;   
+}
+
+.d1 .div2 button:hover{
+    background-color: rgba(17, 96, 185, 0.993);
+}
+
+.d1 .div2 h3{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    left: 10px;
+}
+
+.d1 .div2 p{
+    position: relative;
+    left: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.7px;
 }
