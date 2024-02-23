@@ -219,6 +219,7 @@ button:hover {
     left: 8rem;
     margin-top: .3em;
     color: #555;
+    margin-bottom: 10px;
 }
 
 .d1 {
@@ -332,10 +333,11 @@ button:hover {
 
 .d3 h2 {
     position: relative;
-    left: 8rem;
-    top: 10rem;
+    left: 10rem;
+    top: 11rem;
     font-weight: bolder;
     width: 80%;
+    font-size: 21px;
 }
 
 .pics figure img {
@@ -671,6 +673,7 @@ button:hover {
     color: #fff;
     position: relative;
     top: 40px;
+    background: none;
 }
 
 .div8 .div9 p {
@@ -763,13 +766,104 @@ button:hover {
 }
 
 .i2 li a{
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
     position: relative;
     left: 8px;
     top: 10px;
+    text-decoration: underline !important;
 }
 
 .i2 li:hover{
     background-color: rgba(2, 39, 94, 0.521);
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+footer{
+	 font-family: calibri;
+	 padding: 0 22px;
+	 padding-bottom: 21px;
+	 overflow: hidden;
+}
+
+.footer-content{
+	max-width: 1123px;
+	margin: 0 7%;
+}
+
+.footer-menu{
+	padding-top: 21px;
+	overflow: hidden;
+}
+
+.footer-col{
+	width: 20%;
+	float: left;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+h3{
+	color: #333;
+	font-size: 14px;
+	position: relative;
+	/* background: #e6e6e6; */
+	margin-bottom: 6px;
+	margin-top: 0;
+}
+
+.product-list{
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+.product-list li{
+	margin-bottom: 5px;
+	line-height: 1;
+}
+
+.product-list a{
+	color: #0070c9;
+    text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.product-list a:hover{
+
+	color: #c4881a;
+}
+
+.footer-base{
+	padding-top: 34px;
+	padding-bottom: 21px;
+	font-size: 12px;
+}
+
+.footer-more-ways{
+	margin-bottom: 7px;
+	padding-bottom: 6px;
+}
+
+.footer-legal-copyright{
+    font-size: 11px;
+}
+
+.footer-legal-links p{
+    font-size: 11px;
+    position: relative;
+    left: 24rem;
+}
+
+.footer-legal-links a{
+    padding: 10px;
+    position: relative;
+    left: 25rem;
+    top: 20px;
 }
