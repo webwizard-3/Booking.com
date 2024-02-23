@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    letter-spacing: 0.7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
 }
 
 /* header */
@@ -33,7 +34,7 @@ nav ul {
     left: 34em;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     color: #fff;
     font-weight: 600;
@@ -41,7 +42,7 @@ nav ul li{
     border-radius: 5px;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background-color: rgba(60, 120, 209, 0.3);
     padding: 8px;
     cursor: pointer;
@@ -55,7 +56,7 @@ nav h1 {
     left: 9%;
 }
 
-nav h1:hover{
+nav h1:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -75,11 +76,11 @@ nav button {
     left: 40%;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-.icons{
+.icons {
     width: 90%;
 }
 
@@ -91,56 +92,56 @@ button:hover{
     left: 8em;
 }
 
-.icons ul li{
+.icons ul li {
     list-style-type: none;
     font-size: 15px;
     color: #fff;
-    padding: 10px; 
+    padding: 10px;
     border-radius: 30px;
     position: relative;
     bottom: 7px;
 }
 
-.icons ul li:hover{
+.icons ul li:hover {
     background-color: rgba(60, 120, 209, 0.3);
     padding: 10px;
     cursor: pointer;
 }
 
-.icons .l1{
+.icons .l1 {
     border: 1px solid #fff;
     padding: 10px;
     position: relative;
     bottom: 10px;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.2)
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-.icons .l1:hover{
+.icons .l1:hover {
     cursor: pointer;
 }
 
-.text{
+.text {
     color: #fff;
     position: relative;
     left: 8em;
     top: 6rem;
-    width: 90%;   
+    width: 90%;
 }
 
-.text h1{
+.text h1 {
     padding-bottom: 8px;
     font-size: 40px;
-    letter-spacing: 1px;   
+    letter-spacing: 1px;
 }
 
-.text h2{
+.text h2 {
     font-weight: normal;
     letter-spacing: 1px;
     font-size: 23px;
-}       
+}
 
-.inputs{
+.inputs {
     position: relative;
     top: 8rem;
     left: 8rem;
@@ -148,7 +149,7 @@ button:hover{
     border-radius: 10px;
 }
 
-.inputs input{
+.inputs input {
     padding: 0px 10px 0px 10px;
     width: 28em;
     height: 60px;
@@ -158,18 +159,18 @@ button:hover{
     outline: none;
 }
 
-.inputs select{
+.inputs select {
     padding: 0px 10px 0px 10px;
     width: 23em;
     height: 60px;
     border: 5px solid #ffb700;
     border-right: 4px solid #ffb700 !important;
     position: relative;
-    right:11px;
+    right: 11px;
     outline: none;
 }
 
-::placeholder{
+::placeholder {
     color: black;
 }
 
@@ -194,33 +195,33 @@ button:hover{
     border-radius: 0px 10px 10px 0px;
 }
 
-.inputs button:hover{
+.inputs button:hover {
     background-color: rgba(17, 96, 185, 0.993);
 }
 
 /* content */
 
-.content{
+.content {
     position: relative;
     top: 6em;
     width: 90%;
 }
 
-.content h3{
+.content h3 {
     position: relative;
     left: 8rem;
     font-size: 24px;
     font-weight: 700;
 }
 
-.content p{
+.content p {
     position: relative;
     left: 8rem;
     margin-top: .3em;
     color: #555;
 }
 
-.d1{
+.d1 {
     position: relative;
     left: 100px;
     display: flex;
@@ -231,13 +232,13 @@ button:hover{
 
 /* div1 */
 
-.d2{
+.d2 {
     position: relative;
     left: -104px;
 }
 
 
-.d1 .div1{
+.d1 .div1 {
     border-radius: 8px;
     border: 1px solid #e8e8e8;
     position: relative;
@@ -247,24 +248,24 @@ button:hover{
     padding-top: 15px;
 }
 
-.d1 .div1 img{
+.d1 .div1 img {
     max-width: 124px;
     position: relative;
     left: 27em;
     bottom: 5em;
 }
 
-.d1 .div1 h3{
+.d1 .div1 h3 {
     font-size: 20px;
 }
 
-.d1 .div1 p{
+.d1 .div1 p {
     font-size: 14px;
     font-weight: normal;
     letter-spacing: 0.7px;
 }
 
-.d1 .div1 button{
+.d1 .div1 button {
     font-size: 14px;
     background-color: #006ae3;
     color: #fff;
@@ -274,16 +275,16 @@ button:hover{
     position: relative;
     left: 8rem;
     bottom: 88px;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
 
-.d1 .div1 button:hover{
+.d1 .div1 button:hover {
     background-color: rgba(17, 96, 185, 0.993);
 }
 
 /* div2 */
 
-.div2{
+.div2 {
     border-radius: 8px;
     padding-top: 15px;
     position: relative;
@@ -295,7 +296,7 @@ button:hover{
     background-size: cover;
 }
 
-.d1 .div2 button{
+.d1 .div2 button {
     background-color: #006ae3;
     color: #fff;
     width: 159px;
@@ -303,22 +304,22 @@ button:hover{
     border: none;
     position: relative;
     top: 11px;
-    left: 8px; 
-    border-radius: 5px;   
+    left: 8px;
+    border-radius: 5px;
 }
 
-.d1 .div2 button:hover{
+.d1 .div2 button:hover {
     background-color: rgba(59, 127, 206, 0.993);
 }
 
-.d1 .div2 h3{
+.d1 .div2 h3 {
     font-size: 20px;
     color: #fff;
     position: relative;
     left: 10px;
 }
 
-.d1 .div2 p{
+.d1 .div2 p {
     position: relative;
     left: 10px;
     color: #fff;
@@ -329,7 +330,7 @@ button:hover{
 
 /* picture */
 
-.d3 h2{
+.d3 h2 {
     position: relative;
     left: 8rem;
     top: 10rem;
@@ -337,11 +338,11 @@ button:hover{
     width: 80%;
 }
 
-.pics figure img{
+.pics figure img {
     border-radius: 10px;
 }
 
-.img1{
+.img1 {
     background-color: rgb(189, 187, 187);
     padding: 12px;
     height: 40px;
@@ -351,19 +352,19 @@ button:hover{
     right: 47px;
 }
 
-.pics figcaption{
+.pics figcaption {
     color: #000;
     font-weight: 900;
     font-size: 15px;
 }
 
-.pics{
+.pics {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    margin: 14% auto ;
+    margin: 14% auto;
 }
 
 .pics {
@@ -373,20 +374,20 @@ button:hover{
 /* Destination */
 
 
-.d4{
+.d4 {
     width: 84%;
     margin: 0% auto;
     position: relative;
     bottom: 5em;
 }
 
-.d4 h2{
+.d4 h2 {
     font-weight: bolder;
     font-size: 25px;
-    width: 80%;   
+    width: 80%;
 }
 
-.d4 p{
+.d4 p {
     padding: 10px 0px;
     font-size: 15px;
     font-weight: 500;
@@ -394,26 +395,26 @@ button:hover{
 
 /* pic */
 
-.pic{
+.pic {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.pic .div3{
+.pic .div3 {
     width: 100%;
     height: 46vh;
     border-radius: 10px;
     box-shadow: inset 1px 60px 50px rgba(0, 0, 0, 0.397);
 }
 
-.pic .div3:hover{
+.pic .div3:hover {
     box-shadow: inset 1px 60px 50px rgba(0, 0, 0, 0.63);
     cursor: pointer;
 }
 
-.div3 h3{
+.div3 h3 {
     color: #fff;
     display: inline-block;
     font-size: 22px;
@@ -422,19 +423,20 @@ button:hover{
     left: 13px;
 }
 
-.div3 img{
+.div3 img {
     position: relative;
     top: 24px;
     left: 15px;
 }
 
-.pic .div3{
+.pic .div3 {
     background-image: url(images/lahore.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.pic #div4{
+
+.pic #div4 {
     background-image: url(images/dubai.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -443,27 +445,27 @@ button:hover{
 
 /* pic2 */
 
-.pic2{
+.pic2 {
     padding-top: 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
-.pic2 .div4{
+.pic2 .div4 {
     width: 100%;
     height: 45vh;
     border-radius: 10px;
     box-shadow: inset 1px 50px 37px rgba(0, 0, 0, 0.397);
 }
 
-.pic2 .div4:hover{
+.pic2 .div4:hover {
     box-shadow: inset 1px 50px 37px rgba(0, 0, 0, 0.63);
     cursor: pointer;
 }
 
-.div4 h3{
+.div4 h3 {
     color: #fff;
     display: inline-block;
     font-size: 20px;
@@ -472,37 +474,38 @@ button:hover{
     left: 13px;
 }
 
-.div4 img{
+.div4 img {
     position: relative;
     top: 22px;
     left: 15px;
 }
 
 
-.pic2 .div4{
+.pic2 .div4 {
     background-image: url(images/islamabad.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
 
-.pic2 #div5{
+.pic2 #div5 {
     background-image: url(images/mecca.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
-.pic2 #div6{
+
+.pic2 #div6 {
     background-image: url(images/karachi.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
 }
 
 
 /* Explore */
 
-.d7{
+.d7 {
     width: 84%;
     margin-top: 6% !important;
     margin: 0% auto;
@@ -510,19 +513,19 @@ button:hover{
     bottom: 7em;
 }
 
-.d7 h2{
+.d7 h2 {
     font-weight: bolder;
     font-size: 25px;
-    width: 80%;   
+    width: 80%;
 }
-    
-.d7 p{
+
+.d7 p {
     padding: 7px 0px;
     font-size: 15px;
     font-weight: 500;
 }
 
-.pic3{
+.pic3 {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -531,11 +534,11 @@ button:hover{
     left: 1em;
 }
 
-.pic3 figure img{
+.pic3 figure img {
     border-radius: 10px;
 }
 
-.img2{
+.img2 {
     background-color: rgb(189, 187, 187);
     padding: 12px;
     height: 40px;
@@ -546,7 +549,7 @@ button:hover{
     bottom: 1em;
 }
 
-.pic3 figcaption{
+.pic3 figcaption {
     color: #000;
     font-weight: 900;
     font-size: 15px;
@@ -556,8 +559,217 @@ button:hover{
     cursor: pointer;
 }
 
-.pic3 p{
+.pic3 p {
     font-size: 13px;
     letter-spacing: 0;
     font-weight: 200;
+}
+
+/* Destinations  */
+
+.d8 {
+    width: 84%;
+    height: 53vh;
+    margin: 0% auto;
+    position: relative;
+    bottom: 3em;
+}
+
+.d8 h2 {
+    font-size: 28px;
+}
+
+.d8 .ul1 {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.d8 .ul1 li {
+    list-style-type: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 7px;
+    font-size: 13px;
+}
+
+.d8 .ul1 li:hover {
+    background-color: rgba(139, 136, 136, 0.089);
+}
+
+.d8 .ul1 li:hover {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.d8 .l2 {
+    color: #2f6fe4;
+    border: 2px solid #3186e8;
+    border: 2px solid #2f6fe4;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 30px;
+}
+
+.d9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list1 ul {
+    padding-top: 12px;
+    width: 9em;
+    height: 37vh;
+}
+
+.list1 li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    font-weight: 200;
+    font-weight: bolder;
+}
+
+.list1 li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.list1 li p {
+    font-weight: 200;
+}
+
+.list1 li p:hover {
+    text-decoration: none;
+}
+
+/* subscribe */
+
+.div8 {
+    margin: 3% auto 0% auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 240px;
+    background-color: #00224f;
+}
+
+.div8 .div9 {
+    text-align: center;
+    width: 50%;
+    height: 240px;
+}
+
+.div8 .div9 h3 {
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    position: relative;
+    top: 40px;
+}
+
+.div8 .div9 p {
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    color: #d3d3d3;
+}
+
+.div8 .div9 input {
+    border: none;
+    position: relative;
+    top: 76px;
+    padding-left: 12px;
+    width: 67%;
+    height: 3.5rem;
+    border-radius: 7px;
+}
+
+.div8 .div9 input::placeholder {
+    color: #a1adc4;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+
+.div8 .div9 button {
+    font-size: 17px;
+    margin-left: -4px;
+    border-radius: 7px;
+    background-color: #006ae3;
+    color: #fff;
+    border: none;
+    position: relative;
+    top: 78px;
+    width: 135px;
+    height: 3.5rem;
+}
+
+
+/* footer */
+
+.div7 {
+    width: 100%;
+    background-color: #003b94;
+    height: 20vh;
+}
+
+.i1 {
+    padding: 20px 10px 20px;
+    border-bottom: 3px solid #fff;
+}
+
+.i1 button {
+    position: relative;
+    left: 47em;
+    width: 140px;
+    padding: 4px;
+    height: 33px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.i2 {
+    width: 94%;
+    margin: auto;
+    padding: 20px 10px 10px;
+}
+
+.i2 ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 14px; */
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+}
+
+.i2  li {
+    list-style-type: none;
+    color: #fff;
+    border-right: 1px solid #000;
+    width: 100%;
+    height: 44px;
+    font-size: 13px;
+}
+
+.i2 li a{
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+
+.i2 li:hover{
+    background-color: rgba(2, 39, 94, 0.521);
 }
