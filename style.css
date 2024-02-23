@@ -502,3 +502,62 @@ button:hover{
 
 /* Explore */
 
+.d7{
+    width: 84%;
+    margin-top: 6% !important;
+    margin: 0% auto;
+    position: relative;
+    bottom: 7em;
+}
+
+.d7 h2{
+    font-weight: bolder;
+    font-size: 25px;
+    width: 80%;   
+}
+    
+.d7 p{
+    padding: 7px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.pic3{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1em;
+}
+
+.pic3 figure img{
+    border-radius: 10px;
+}
+
+.img2{
+    background-color: rgb(189, 187, 187);
+    padding: 12px;
+    height: 40px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    position: relative;
+    right: 2em;
+    bottom: 1em;
+}
+
+.pic3 figcaption{
+    color: #000;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.pic3 {
+    cursor: pointer;
+}
+
+.pic3 p{
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: 200;
+}
